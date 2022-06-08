@@ -17,7 +17,10 @@ import tailwindStylesheetUrl from "./styles/tailwind.css";
 import { getUser } from "./session.server";
 
 export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
+  return [
+    { rel: "stylesheet", href: tailwindStylesheetUrl },
+    // { rel: "script", href: "https://cdn.jsdelivr.net/npm/@undecaf/barcode-detector-polyfill/dist/index.js" },
+  ];
 };
 
 export const meta: MetaFunction = () => ({
