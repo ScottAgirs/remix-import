@@ -25,7 +25,7 @@ export default function Index() {
           <code className='bg-purple-50 py-1 px-2 my-3 block rounded'>
             To see the error, please uncomment the line below in the code.
           </code>
-          {console.log('BarcodeDetectorPolyfill', BarcodeDetectorPolyfill)}
+          {/* {console.log('BarcodeDetectorPolyfill', BarcodeDetectorPolyfill)} */}
         </p>
       </div>
     </main>
