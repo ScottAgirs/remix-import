@@ -1,3 +1,4 @@
+// @ts-ignore
 import { BarcodeDetectorPolyfill } from "https://cdn.skypack.dev/@undecaf/barcode-detector-polyfill@0.9.9";
 
 import { Nav } from '../components/Nav';

@@ -31,6 +31,7 @@ export default function Index() {
             To see the error, please uncomment the line below in the code.
           </code>
         </p>
+        {/* {console.log('BarcodeDetectorPolyfill', BarcodeDetectorPolyfill)} */}
       </div>
 
       <Nav />
